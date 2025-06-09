@@ -5,6 +5,11 @@ using namespace std;
 
 int main () {
     string baris;
+    string namefile;
+
+    cout << "Masukkan Nama File : ";
+    cin >> namefile;
+    cin.ignore();
 
     //membuat objek output file stream  
     ofstream outfile;
