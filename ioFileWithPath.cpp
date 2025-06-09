@@ -14,7 +14,7 @@ int main () {
     //membuat objek output file stream  
     ofstream outfile;
     //membuuka file untu ditulisi
-    outfile.open("contohfile.txt");
+    outfile.open(namefile + ".csv");
 
     cout << ">= Menulis file, \'q\' untuk keluar" << endl;
 
@@ -34,7 +34,7 @@ int main () {
     //membuat objek input file stream
     ifstream infile;
     //membuka file yang dituliskan
-    infile.open("contohfile.txt");
+    infile.open(namefile + ".csv");
 
     cout << endl << ">= Membuka dan membaca file " << endl;
     //jika file ad maka
