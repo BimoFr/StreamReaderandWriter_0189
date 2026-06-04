@@ -30,6 +30,20 @@ int main()
     ifstream infile;
 
     infile.open(NamaFile + ".txt", ios::in);
-    
+
     cout << ">=Membuka dan membaca file " << endl;
+
+    if (infile.is_open())
+    {
+        while (getline(infile, baris))
+        {
+            cout << baris << endl;
+        }
+        infile.close();
+    }
+    else
+    {
+        cout << "Unable to open file" << endl;
+        return 0;
+    }
 }
