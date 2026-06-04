@@ -5,5 +5,14 @@ using namespace std;
 
 int main()
 {
-    
+    cout << "Awal program" << endl;
+    try
+    {
+        array<int, 3> data = { 1, 2, 3 };
+        cout << data.at(5) << endl; // Ini akan melempar out_of_range exception
+    }
+    catch (exception& e)
+    {
+        cout << e.what() << endl;
+    }
 }
