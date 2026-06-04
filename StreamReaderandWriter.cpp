@@ -24,4 +24,9 @@ int main()
         outfile << baris << endl;
     }
     outfile.close();
+
+    ifstream infile;
+    infile.open("contohfile.txt");
+
+    cout << ">=Membuka dan membaca file " << endl;
 }
