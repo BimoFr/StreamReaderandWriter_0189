@@ -1,0 +1,3 @@
+cd "c:\KULIAH\SEMESTER 4\Pemdas\p14\" ; if ($?) { g++ exceptionStandart.cpp -o exceptionStandart } ; if ($?) { .\exceptionStandart }
+cd "c:\KULIAH\SEMESTER 4\Pemdas\p14\" ; if ($?) { g++ ioFileWithPath.cpp -o ioFileWithPath } ; if ($?) { .\ioFileWithPath }
+cd "c:\KULIAH\SEMESTER 4\Pemdas\p14\" ; if ($?) { g++ ioFileWithPath.cpp -o ioFileWithPath } ; if ($?) { .\ioFileWithPath }
